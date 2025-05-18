@@ -5,7 +5,7 @@
 #include <errno.h>
 
 // Starter driver code provided by course instructors.
-// (This file was not written by me.)
+// (This file was not written by me)
  
 
 // arglist - a list of char* arguments (words) provided by the user
