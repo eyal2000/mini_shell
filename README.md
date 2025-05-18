@@ -8,10 +8,11 @@ Simple Unix-like shell in C supporting background jobs, pipelines, I/O redirecti
 - Signal handling (ignore Ctrl+C in shell, forward to children; reap zombies)
 
 # build & run
-1.
-- make
-- ./shell
-2.
+1. Using **make**
+   - `make`
+   - `./shell`
+2. Without **make**
 - gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 mini_shell.c main.c -lreadline -o shell
-- ./shell
+   - `gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 mini_shell.c main.c -lreadline -o shell`
+   - `./shell`
 
