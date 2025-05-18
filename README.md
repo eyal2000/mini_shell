@@ -9,10 +9,9 @@ Simple Unix-like shell in C supporting background jobs, pipelines, I/O redirecti
 
 # build & run
 1.
-make
-./shell
-
+- make
+- ./shell
 2.
-gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 mini_shell.c main.c -lreadline -o shell
-./shell
+- gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 mini_shell.c main.c -lreadline -o shell
+- ./shell
 
