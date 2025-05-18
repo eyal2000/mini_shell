@@ -4,6 +4,10 @@
 #include <string.h>
 #include <errno.h>
 
+// Starter driver code provided by course instructors.
+// (This file was not written by me.)
+ 
+
 // arglist - a list of char* arguments (words) provided by the user
 // it contains count+1 items, where the last item (arglist[count]) and *only* the last is NULL
 // RETURNS - 1 if should continue, 0 otherwise
