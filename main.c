@@ -4,7 +4,7 @@
 #include <string.h>
 #include <errno.h>
 
-// Starter driver code provided by course instructors.
+// Starter code provided by course instructors.
 // (This file was not written by me)
  
 
